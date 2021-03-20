@@ -1,0 +1,28 @@
+.Icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.Icons button {
+  background: cadetblue;
+  padding: 10px;
+  font-size: 1.25em;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  transition: 0.4s;
+}
+
+.Icons button:hover {
+  background-color: white;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+}

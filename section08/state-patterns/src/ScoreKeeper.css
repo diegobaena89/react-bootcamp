@@ -1,0 +1,28 @@
+.ScoreKeeper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 580px;
+  padding: 30px;
+  border: 1px solid gray;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.ScoreKeeper button {
+  background-color: cadetblue;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  font-size: 1.25em;
+  transition: 0.4s;
+}
+.ScoreKeeper button:hover {
+  background-color: white;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+}
